@@ -1,0 +1,23 @@
+{
+  "name": "gltf_viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --devtool eval-source-map",
+    "build": "webpack --mode production"
+  },
+  "author": "Taizhong Chen",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "gltf-webpack-loader": "^1.0.6",
+    "three": "^0.148.0"
+  }
+}
